@@ -137,7 +137,17 @@
     }
 }
 
-
+.menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    // display: flex;
+    border: none;
+    border-color: transparent;
+    align-items: center;
+    justify-content: center;
+    left: 425px;
+    background-color: transparent;
+}
 
 
 
