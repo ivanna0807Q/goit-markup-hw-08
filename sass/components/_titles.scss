@@ -1,0 +1,32 @@
+.work__title,
+.team__title,
+.customer__title {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+.strength__name,
+.team-members__name,
+.work__title,
+.team__title,
+.customer__title {
+    color: $primary-title-color;
+}
+
+.work__title,
+.team__title,
+.customer__title {
+    font-size: 36px;
+    line-height: 1.1666666667;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.strength__name,
+.team-members__name,
+.work__title,
+.team__title,
+.customer__title {
+    color: #212121;
+}

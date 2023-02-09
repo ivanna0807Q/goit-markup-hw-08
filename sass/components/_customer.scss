@@ -1,0 +1,33 @@
+.customer__title {
+    margin-bottom: 50px;
+}
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.customer-list__link {
+    display: flex;
+}
+
+.customer-list__link {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px 16px 32px;
+    cursor: pointer;
+    fill: #AFB1B8;
+    border-color: #AFB1B8;
+    transition-property: fill, border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customer-list__link:hover,
+.customer-list__link:focus {
+    fill: $link-active-color;
+    border-color: $link-active-color;
+}

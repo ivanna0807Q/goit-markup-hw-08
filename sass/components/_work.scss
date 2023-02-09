@@ -1,0 +1,66 @@
+/* Work section */
+@media  screen and ( max-width:1200px) {
+    .work {
+        display: none;
+    }
+    
+}
+
+
+@media screen and ( min-width: 1200px) {
+
+    .work {
+            padding-top: 0%;
+    
+            &__title {
+                font-size: 36px;
+                line-height: 42px;
+                margin-bottom: 50px;
+            }
+    
+            &__images {
+                display: flex;
+                justify-content: center;
+
+                margin-top: 0;
+                margin-right: 0;
+                margin-left: 0;
+            }
+       
+            &__text {
+                position: absolute;
+                top: 225px;
+                width: 100%;
+                height: 70px;
+                display: block;
+                font-family: 'Roboto';
+                font-weight: 700;
+                font-size: 14px;
+                text-align: center;
+                line-height: calc(16 / 14);
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                background: rgba(47, 48, 58, 0.8);
+                padding-top: 27px;
+                padding-bottom: 27px;
+            }
+        }
+    
+        .images-computer {
+            position: relative;
+            margin-right: 30px;
+        }
+    
+        .images-example {
+            position: relative;
+            margin-right: 30px;
+        }
+    
+        .images-tablet {
+            position: relative;
+            margin-right: 0;
+        }
+    
+}
+    

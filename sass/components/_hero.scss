@@ -1,0 +1,63 @@
+/* SECTION***HERO*** */
+
+.hero {
+    background-color: $hero-background-color;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/hero-bg.jpg);
+    background-position: center;
+    
+     
+    &__title {
+            color: $hero-title-color;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: calc(60 / 44);
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-top: 200;
+            margin-bottom: 30px;
+            font-family: "Roboto", sans-serif;
+        }
+        &__button {
+            display: inline-block;
+            border-radius: 4px;
+            font-family: "Roboto", sans-serif;
+            color:$hero-title-color;
+            background-color:$link-active-color;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: calc(30 / 16);
+            cursor: pointer;
+            letter-spacing: 0.06em;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border: 0px solid transparent;
+            min-width: 152px;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 24px;
+            padding-right: 24px;
+            width: 216px;
+            height: 50px;
+            
+            &:hover {
+                    background: #188CE8;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            }
+        }
+}
+
+
+
+
+

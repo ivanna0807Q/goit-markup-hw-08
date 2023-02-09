@@ -1,0 +1,87 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.team-members__name,
+.strength__name {
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.html {
+    box-sizing: border-box;
+}
+
+*,
+*::before *::after {
+    box-sizing: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: auto;
+
+    @media screen and (min-width: 480px) {
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+body {
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+    color: $accent-color;
+    background-color: $body-backgroud-color;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
